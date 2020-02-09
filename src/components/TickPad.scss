@@ -1,0 +1,23 @@
+.tick-pad {
+    padding: 4px!important;
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    float: left;
+    box-shadow: 0 0 16px #000000;
+    &__button {
+        width: 100%;
+        height: auto;
+        background: white;
+        border: 0;
+        padding: 16px;
+        &:hover{
+            background: #fff;
+        }
+        &:active {
+            background: #fff;
+        }
+        &__image{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.game {
+    background: url(./assets/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    border-radius: 4px;
+    &__container{
+        position: relative;
+        top: 50vh;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 28px;
+        &__player{
+            box-shadow: 0 0 16px #000000;
+            padding: 24px;
+            &-turn{
+                background: green;
+                border-radius: 4px;
+                color: white;
+            }
+            &-wait{
+                background: #fafafa;
+                border-radius: 4px;
+                color: black;
+            }
+            &-image{
+                border-radius: 4px;
+            }
+        }
+    }
+}
+
+.status-container {
+    padding: 0;
+    margin: 0;
+    top: 0;
+    width : 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    background: #333333dd;
+}
